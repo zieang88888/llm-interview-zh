@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.5" stop-color="#312e81"/>
+      <stop offset="1" stop-color="#4c1d95"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="320" fill="url(#bg)"/>
+  <circle cx="1080" cy="50" r="100" fill="#ffffff" opacity="0.05"/>
+  <circle cx="80" cy="290" r="130" fill="#ffffff" opacity="0.04"/>
+  <circle cx="600" cy="160" r="200" fill="#8b5cf6" opacity="0.06"/>
+  <rect x="0" y="0" width="1200" height="8" fill="url(#bar)"/>
+  <text x="80" y="145" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="60" font-weight="bold" fill="#ffffff">AI 大模型面试手册</text>
+  <text x="80" y="200" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="28" fill="#c4b5fd">Transformer · RLHF · RAG · 微调 · 推理部署 · Agent · Prompt</text>
+  <text x="80" y="245" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="22" fill="#a5f3fc">10 大主题 · 100+ 问 · 基础 / 进阶 / 实战三级 · 背完再投算法岗</text>
+  <g transform="translate(970, 140)">
+    <path d="M 30 0 L 90 0 L 105 30 L 90 60 L 30 60 L 15 30 Z" fill="#fbbf24"/>
+    <text x="30" y="42" font-family="Arial" font-size="26" font-weight="bold" fill="#78350f">★</text>
+  </g>
+  <text x="80" y="290" font-family="Microsoft YaHei, PingFang SC, sans-serif" font-size="18" fill="#9ca3af">⭐ Star 一下，面试前翻一遍 · 开源 · MIT License · 持续更新</text>
+</svg>
